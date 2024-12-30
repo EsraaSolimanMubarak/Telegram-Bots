@@ -4,7 +4,7 @@ import os
 from rembg import remove
 from telegram.ext import ApplicationBuilder, Updater, ContextTypes, CallbackContext, CommandHandler, MessageHandler, filters
 
-TOKEN = '8090814648:AAFcVrPy4NAVhVXDIcK1PIO0TcQ4KmrFADE'
+TOKEN = 'Enter your token here'
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi, I am a background removal bot, to start click on /start")
